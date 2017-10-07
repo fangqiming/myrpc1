@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="rpc-consumer" />
+        <module name="rpc-core" />
+        <module name="rpc-provider" />
+        <module name="rpc-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="my-rpc" target="1.8" />
+      <module name="rpc" target="1.8" />
+      <module name="rpc-consumer" target="1.8" />
+      <module name="rpc-core" target="1.8" />
+      <module name="rpc-provider" target="1.8" />
+      <module name="rpc-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
